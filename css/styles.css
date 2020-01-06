@@ -1,11 +1,11 @@
- .button {
+ div {
   background-color: #008CBA;
   border: black;
   padding: 5px 10px;
-  text-align:center;
+  text-align: center;
   display: inline-block;
   font-size: 16px;
-  font-style: georgia;
+  font-style: Georgia;
   border-style: solid;
   color: white;
 }
@@ -15,5 +15,6 @@ body {
 }
 
 h1 {
-  border-style: : solid;
+  text-align: center;
+  font-style: Georgia;
 }
