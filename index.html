@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
-<script type="text/javascript" src="js/app.js"></script>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
   </head>
+  <header>
 
-  <body>
+      <h1>Taskmaster</h1>
 
+        <div class = "add">
+            <input type = "text" placeholder="Hello!" id = "item"></input>
+            <button onclick="addItem()" onclick="newElement()" onclick="submitForm()"class = "addButton" id="addItem">+</button>
+        </div>
+      </header>
+        <body>
+      <div class = "contain">
+        <ul class = "list" id="list"></ul>
+      </div>
+       <script type = "text/javascript" src = "js/app.js"></script>
+       <img src="Images/mon.gif" height="250px" width="1510px"
 
-    <h1> Taskmaster </h1>
-
-<center> <img src="Images/mon.gif" height="200px" width="700px"> </center>
- <div>
-
-<center> <button onclick="newbutton"> New </button> </center>
-
-</div>
-
-<div>
-  
-<center> <button> Delete </button> </center>
-
-</div>
+  </body>
+</html>

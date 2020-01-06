@@ -1,20 +1,136 @@
- div {
+*{
+font-family: Georgia;
+background-color: #008CBA;
+text-shadow: 1px 1px grey;
+}
+
+h1{
+  font-size: 45px;
+}
+
+header{
   background-color: #008CBA;
-  border: black;
-  padding: 5px 10px;
+  border-radius: 20px;
   text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  font-style: Georgia;
-  border-style: solid;
-  color: white;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.list1{
+  width: 80px;
+  height:70px;
+  position: relative;
+  top: 15px;
+  right: 25px;
+}
+.list2{
+  width: 80px;
+  height:70px;
+  position: relative;
+  top: 15px;
+  right:10px;
 }
 
-body {
-  background-color: #ff4d4d;
+input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 7px 0;
+  box-sizing: border-box;
 }
 
-h1 {
+.addButton{
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #000000;
+  font-size: 50px;
+  color: #ADD8E6;
   text-align: center;
-  font-style: Georgia;
+  font-weight: bold;
+  position: relative;
+  right: 0px;
+  bottom: 5px;
+}
+.addButton:hover{
+  background-color: #000C66;
+  font-size: 50px;
+  color: black;
+}
+
+#item{
+  border-radius: 50px;
+  margin-top: 5px;
+  font-size: 24px;
+  position: relative;
+  top: -10px;
+}
+
+ul{
+  cursor: pointer;
+  width: 90%;
+  height: 40px;
+  float: left;
+  font-size: 28px;
+  text-indent: 50px;
+  list-style: none;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  padding: 20px 100px 20px 20px;
+  line-height: 70px;
+
+}
+.container{
+  background-color:black;
+  margin-bottom: 5px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-left: 75px;
+  margin-right: 75px;
+  overflow: scroll;
+  margin-top: 10px;
+}
+ul li.checked {
+  color: grey;
+  text-decoration: line-through;
+}
+ul li:hover {
+  text-decoration: line-through;
+  color:white;
+}
+
+.close {
+  position: absolute;
+  right: 100px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 6px 10px 0 #000000;
+  font-weight: bold;
+  color: #ADD8E6;
+  background-color: black;
+
+}
+
+
+#prioritize {
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  right: 200px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 6px 10px 0 #000000;
+  font-weight: bold;
+  color: #ADD8E6;
+  background-color: black;
 }
