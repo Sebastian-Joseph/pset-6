@@ -14,7 +14,6 @@ function addstuff(){
         document.getElementById("list").appendChild(li);
       }
 
-//delete button
    var erase = document.createTextNode("\u00D7");
     button.className = "close";
     button.appendChild(erase);
@@ -27,21 +26,13 @@ function addstuff(){
           }
         }
 
-//prioritize button
     var button = document.createElement("Button");
     var exclamationPoint = document.createTextNode("!");
         button.id = "prioritize";
         button.appendChild(exclamationPoint);
          li.appendChild(button);
-//complete button: try and figue out how to link to the completion code
-/*    var completeButton = document.createElement("Button");
-    var done = document.createTextNode("Complete");
-        completeButton.id = "complete";
-        completeButton.appendChild(done);
-        li.appendChild(completeButton);
-*/
 }
-//completing a to-do
+
     var connectButton = document.getElementsByClassName("complete");
 
     var list = document.querySelector('ul');
@@ -51,7 +42,6 @@ function addstuff(){
             }
           }, false);
 
-//remove a to-do
 
     var close = document.getElementsByClassName("close");
       var div = this.parentElement;
@@ -60,7 +50,6 @@ function addstuff(){
               div.remove()
         }
       }
-  //prioritize a to-do
     list.addEventListener('click', function(ev) {
         if (ev.target.id == "prioritize") {
           ev.target.classList.toggle('item');
