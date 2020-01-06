@@ -1,10 +1,3 @@
-function input() {
-  let input = prompt(" ")
-
-  if (input == null) {
-    break;
-  } else if () {
-    console.log(input)
-  }
-
-}
+const abutton = document.querySelector('.abutton');
+var inputValue = document.querySelector('.input');
+const container = document.querySelector()
