@@ -1,9 +1,8 @@
-var app = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')):{
+var theapp = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')):{
   todo: []
 };
 
-//add to-do
-function addItem(){
+function addstuff(){
     var li = document.createElement("li");
     var input = document.getElementById("item").value;
     var add = document.createTextNode(input);
